@@ -19,7 +19,7 @@ class FlickrClient : NSObject {
     let DATA_FORMAT = "json"
     let EXTRAS = "url_m"
     let NO_JSON_CALLBACK = "1"
-    let PHOTOS_PER_PAGE = "1000"
+    let PHOTOS_PER_PAGE = "250"
     
 
     override init() {

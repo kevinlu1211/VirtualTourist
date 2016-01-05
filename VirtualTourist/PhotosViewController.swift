@@ -217,6 +217,7 @@ class PhotosViewController: UIViewController, UICollectionViewDataSource, UIColl
                 
                 // Using inverse relationship to delete elements of array
                 photosArray[path.row].customAnnotation = nil
+                photosArray[path.row].photoImage = nil
                 sharedContext.deleteObject(photosArray[path.row])
             }
             
